@@ -10,15 +10,15 @@ html {
 }
 
 .clock-face {
-    height: 300px;
-    margin: 50px auto;
-    position: relative;
-    width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  position: relative;
+  width: 300px;
 
-background: transparent url("../images/clock-face.svg")
+  background: transparent url("../images/clock-face.svg");
 }
 
-.clock center {
+.clock-center {
   bottom: calc(50% - 14px);
   left: calc(50% - 14px);
   position: absolute;
@@ -39,13 +39,13 @@ background: transparent url("../images/clock-face.svg")
 
 @keyframes hand-rotate {
 
-0% {
-  transform: rotate(0deg);
-}
+  0% {
+    transform: rotate(0deg);
+  }
 
-100% {
-  transform: rotate(360deg);
-}
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hand-hour {
